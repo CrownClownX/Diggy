@@ -1,3 +1,35 @@
-.new {
-  
+.gird-stack-n {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+}
+
+.grid-columns-n {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+}
+
+.stack-sb {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.stack-se {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.relative-container {
+  position: relative;
 }
