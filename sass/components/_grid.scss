@@ -21,6 +21,13 @@
   align-items: center;
 }
 
+.stack-center {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .flex-1 {
   flex: 1;
 }
